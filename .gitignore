@@ -1,4 +1,6 @@
 *.e
+*.exe
 ~$*.docx
 .vscode
 *.Identifier
+lib
