@@ -1,0 +1,52 @@
+object AddStudentForm: TAddStudentForm
+  Left = 325
+  Height = 177
+  Top = 264
+  Width = 263
+  Caption = 'Новый студент'
+  ClientHeight = 177
+  ClientWidth = 263
+  OnShow = FormShow
+  LCLVersion = '2.2.2.0'
+  object Edit1: TEdit
+    Left = 10
+    Height = 23
+    Top = 10
+    Width = 144
+    TabOrder = 0
+    TextHint = 'Имя'
+  end
+  object Edit2: TEdit
+    Left = 10
+    Height = 23
+    Top = 40
+    Width = 144
+    TabOrder = 1
+    TextHint = 'Фамилия'
+  end
+  object Edit3: TEdit
+    Left = 10
+    Height = 23
+    Top = 72
+    Width = 144
+    TabOrder = 2
+    TextHint = 'Группа'
+  end
+  object Edit4: TEdit
+    Left = 10
+    Height = 23
+    Top = 104
+    Width = 144
+    TabOrder = 3
+    TextHint = 'Рейтинг (от 0 до 100)'
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 136
+    Width = 146
+    Caption = 'Добавить студента'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+end
