@@ -19,8 +19,8 @@
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="102"/>
-        <CursorPos Y="107"/>
+        <TopLine Value="87"/>
+        <CursorPos X="28" Y="121"/>
         <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -36,8 +36,10 @@
       <Unit>
         <Filename Value="repository.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
-        <CursorPos Y="3"/>
+        <TopLine Value="21"/>
+        <CursorPos X="15" Y="83"/>
         <UsageCount Value="31"/>
         <Loaded Value="True"/>
       </Unit>
@@ -58,11 +60,10 @@
         <Filename Value="gist.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <CursorPos X="15" Y="3"/>
-        <FoldState Value=" T3iA04G"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -201,8 +202,8 @@
         <Caret Line="51" Column="56" TopLine="22"/>
       </Position>
       <Position>
-        <Filename Value="gist.pas"/>
-        <Caret Line="9" Column="59" TopLine="22"/>
+        <Filename Value="domain.pas"/>
+        <Caret Line="28" Column="3"/>
       </Position>
     </JumpHistory>
     <RunParams>
