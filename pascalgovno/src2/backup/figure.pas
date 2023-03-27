@@ -11,7 +11,7 @@ type
   TFigure = object
   public
     constructor Init(amplitude, oscillation: double; x, y: integer);
-    procedure Draw(var canvas: TCanvas; time: double); virtual; abstract;
+    procedure Draw(canvas: TCanvas; time: double); virtual; abstract;
   public
     coords: vector;
     size: vector;
@@ -23,7 +23,7 @@ implementation
 constructor TFigure.Init(amplitude, oscillation: double; x, y: integer);
 begin
   self.coords.Init(x, y);
-  self.size.Init(20, 0);
+  self.size.Init(100, 0);
   self.amplitude := amplitude;
   self.oscillation := oscillation;
 end;

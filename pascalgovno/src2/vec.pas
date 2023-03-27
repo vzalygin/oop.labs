@@ -34,4 +34,9 @@ begin
   Result := res;
 end;
 
+function Vector.Add(vec: Vector): Vector;
+begin
+  Result.Init(self.x+vec.x, self.y+vec.y);
+end;
+
 end.

@@ -10,7 +10,7 @@ uses
 type
   TFigure = object
     constructor Init(color, beginX, beginY, endX, endY: integer);
-    procedure Draw(var canvas: TCanvas); virtual;
+    procedure Draw(const canvas: TCanvas); virtual; abstract;
 
   public
     Color, BeginX, BeginY, EndX, EndY: integer;
@@ -27,14 +27,14 @@ begin
   self.EndY := endY;
 end;
 
-procedure TFigure.Draw(var canvas: TCanvas);
-begin
-  canvas.Brush.Color := clblue;
-  canvas.Pen.Width := 4;
-  Canvas.Pen.Color := clBlue;
-  Canvas.Pen.Style := psSolid;
-  Canvas.MoveTo(10, 10);
-  Canvas.LineTo(50, 50);
-end;
+//procedure TFigure.Draw(const canvas: TCanvas);
+//begin
+//  canvas.Brush.Color := clblue;
+//  canvas.Pen.Width := 4;
+//  Canvas.Pen.Color := clBlue;
+//  Canvas.Pen.Style := psSolid;
+//  Canvas.MoveTo(10, 10);
+//  Canvas.LineTo(50, 50);
+//end;
 
 end.

@@ -33,6 +33,8 @@ type
     IsDrawing: boolean;
     function GetColor: integer;
     function GetFigure: integer;
+    procedure ClearCanvas;
+    procedure DrawFigures;
   public
 
   end;
@@ -44,17 +46,18 @@ implementation
 
 {$R *.lfm}
 
-procedure ClearCanvas(canvas: TCanvas);
+procedure TMainForm.ClearCanvas;
 begin
   canvas.Brush.Color := $FFFFFF;
-  canvas.FillRect(0, 0, 400, 400);
+  canvas.FillRect(180, 0, 400+180, 400);
+
 end;
 
-procedure DrawFigures(canvas: TCanvas; figures: array of TFigure);
+procedure TMainForm.DrawFigures;
 var
   i: integer;
 begin
-  ClearCanvas(canvas);
+  ClearCanvas;
   for i := 0 to high(figures) do
     figures[i].Draw(canvas);
 end;
@@ -83,7 +86,7 @@ end;
 
 procedure TMainForm.FormCreate(Sender: TObject);
 begin
-  ClearCanvas(PaintBox.Canvas);
+  //ClearCanvas;
 end;
 
 procedure TMainForm.PaintBoxMouseDown(Sender: TObject; Button: TMouseButton;
@@ -105,7 +108,7 @@ begin
       Figures[Count - 1] := rect;
     end;
   end;
-  DrawFigures(PaintBox.canvas, Figures);
+  DrawFigures;
 end;
 
 procedure TMainForm.PaintBoxMouseMove(Sender: TObject; Shift: TShiftState;
@@ -115,7 +118,7 @@ begin
   begin
     Figures[Count - 1].EndX := x;
     Figures[Count - 1].EndY := y;
-    DrawFigures(PaintBox.canvas, Figures);
+    DrawFigures;
   end;
 end;
 
@@ -123,6 +126,7 @@ procedure TMainForm.PaintBoxMouseUp(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: integer);
 begin
   IsDrawing := False;
+  DrawFigures;
 end;
 
 end.
