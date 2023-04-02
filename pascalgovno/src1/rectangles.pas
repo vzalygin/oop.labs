@@ -9,7 +9,7 @@ uses
 
 type TRect = object(TFigure)
   constructor Init(c, x1, y1, x2, y2: integer);
-  procedure Draw(var canvas: TCanvas); virtual;
+  procedure Draw(const canvas: TCanvas); virtual;
   end;
 
 implementation
@@ -19,12 +19,12 @@ begin
   inherited Init(c, x1, y1, x2, y2)
 end;
 
-procedure TRect.Draw(var canvas: TCanvas);
+procedure TRect.Draw(const canvas: TCanvas);
 var x1, y1, x2, y2, tmp: integer;
 begin
-  x1 := self.BeginX;
+  x1 := self.BeginX+180;
   y1 := self.BeginY;
-  x2 := self.EndX;
+  x2 := self.EndX+180;
   y2 := self.EndY;
   if x1 < x2 then begin
     tmp := x1;

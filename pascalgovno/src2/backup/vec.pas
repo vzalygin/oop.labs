@@ -34,11 +34,4 @@ begin
   Result := res;
 end;
 
-function Vector.Add(vec: Vector): Vector;
-var res: Vector;
-begin
-  res.Init(x+vec.x, y+vec.y);
-  Result := res;
-end;
-
 end.

@@ -11,7 +11,7 @@ type
   TFigure = object
   public
     constructor Init(amplitude, oscillation: double; x, y: integer);
-    procedure Draw(var canvas: TCanvas; time: double); virtual; abstract;
+    procedure Draw(const canvas: TCanvas; time: double); virtual; abstract;
   public
     coords: vector;
     size: vector;

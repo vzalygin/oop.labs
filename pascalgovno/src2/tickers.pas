@@ -10,7 +10,7 @@ uses
 type
   TTicker = object(TFigure)
     constructor Init(amplitudeT, oscillationT: double; xT, yT: integer);
-    procedure Draw(var canvas: TCanvas; time: double); virtual;
+    procedure Draw(const canvas: TCanvas; time: double); virtual;
   end;
 
 implementation
@@ -20,7 +20,7 @@ begin
   inherited Init(amplitudeT, oscillationT, xT, yT);
 end;
 
-procedure TTicker.Draw(var canvas: TCanvas; time: double);
+procedure TTicker.Draw(const canvas: TCanvas; time: double);
 var
   alpha: double;
   shift: Vector;

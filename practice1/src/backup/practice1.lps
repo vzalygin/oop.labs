@@ -28,7 +28,6 @@
       <Unit>
         <Filename Value="domain.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <CursorPos X="3" Y="28"/>
         <UsageCount Value="31"/>
@@ -37,8 +36,10 @@
       <Unit>
         <Filename Value="repository.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
-        <CursorPos Y="3"/>
+        <TopLine Value="21"/>
+        <CursorPos X="15" Y="83"/>
         <UsageCount Value="31"/>
         <Loaded Value="True"/>
       </Unit>
@@ -83,7 +84,7 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="gist.pas"/>
         <Caret Line="43" Column="41" TopLine="10"/>
@@ -199,6 +200,10 @@
       <Position>
         <Filename Value="gist.pas"/>
         <Caret Line="51" Column="56" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="domain.pas"/>
+        <Caret Line="28" Column="3"/>
       </Position>
     </JumpHistory>
     <RunParams>

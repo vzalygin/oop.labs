@@ -10,7 +10,7 @@ uses
 type
   TTicker = object(TFigure)
     constructor Init(amplitudeT, oscillationT: double; xT, yT: integer);
-    procedure Draw(var canvas: TCanvas; time: double); virtual;
+    procedure Draw(const canvas: TCanvas; time: double); virtual;
   end;
 
 implementation
@@ -20,7 +20,7 @@ begin
   inherited Init(amplitudeT, oscillationT, xT, yT);
 end;
 
-procedure TTicker.Draw(var canvas: TCanvas; time: double);
+procedure TTicker.Draw(canvas: TCanvas; time: double);
 var
   alpha: double;
   shift: Vector;
@@ -32,7 +32,7 @@ begin
 
   canvas.Brush.Color := $FFFFFF;
   canvas.Pen.Color := $000000;
-  canvas.Pen.Width := 4;
+  canvas.Pen.Width := 2;
   canvas.Ellipse(coords.x + shift.x - 10, coords.y + shift.y - 10,
     coords.x + shift.x + 10, coords.y + shift.y + 10);
   canvas.Line(coords.x, coords.y, coords.x + shift.x, coords.y + shift.y);
