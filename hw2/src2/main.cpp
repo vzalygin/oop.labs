@@ -18,7 +18,7 @@ int groups(char *str, bool (*attr)(char)) {
 }
 
 char* replace(char *str, bool(*attr)(char)) {
-    char *res = "";
+    char *res = new char[1]{'\0'};
     int len = strlen(str);
     bool is_group = false;
     for (int i = 0; i < len; ++i) {
@@ -27,7 +27,7 @@ char* replace(char *str, bool(*attr)(char)) {
         } else  {
             if (is_group) {
                 is_group = false;
-                res = strncat(res, "123", 3);
+                res = strcat(res, "123");
             }
             res = strncat(res, &str[i], 1);
         }
@@ -48,14 +48,16 @@ int main() {
     int count;
     cin >> count;
     for (int i = 0; i < count; ++i) {
+        cout << "Введите строку " << i+1 << endl;
         char s[128];
         scanf("%s", s);
         cout << "Исходная строка:" << endl << s << endl;
         if (groups(s, is_letter) > groups(s, is_sign)) {
             cout << "Групп букв больше, чем групп знаков" << endl;
-            cout << "Скорректированная строка:" << endl << replace(s, is_sign) << endl;;
+            cout << "Скорректированная строка:" << endl << replace(s, is_sign) << endl;
         } else {
             cout << "Групп букв меньше, чем групп знаков" << endl;
+            cout << "Скорректированная строка:" << endl << s << endl;
         }
     }
     
