@@ -26,17 +26,16 @@ int compute_sum(int *a, int *p, int *b, int al, int bl) {
 }
 
 int main() {
-    setlocale(LC_ALL, "Russian"); 
     int count_a, count_b;
-    cout << "Введите количество победителей" << endl;
+    cout << "Input amount of the winners" << endl;
     cin >> count_a;
-    cout << "Введите номера победителей" << endl;
+    cout << "Input ids of the winners" << endl;
     int *a = input_arr(count_a);
-    cout << "Введите суммы выигрышей" << endl;
+    cout << "Input prizes" << endl;
     int *p = input_arr(count_a);
-    cout << "Введите количество интересующих победителей" << endl;
+    cout << "Input amount of special winners" << endl;
     cin >> count_b;
-    cout << "Введите номера интересующих победителей" << endl;
+    cout << "Input ids of special winners" << endl;
     int *b = input_arr(count_b);
-    cout << "Сумма выигрышей интересующих победителей: " << compute_sum(a, p, b, count_a, count_b) << endl;
+    cout << "The sum of prizes is " << compute_sum(a, p, b, count_a, count_b) << endl;
 }

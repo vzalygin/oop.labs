@@ -44,23 +44,21 @@ bool is_sign(char c) {
 }
 
 int main() {
-    cout << "Введите количество строк" << endl;
+    cout << "Input a count of strings" << endl;
     int count;
     cin >> count;
     for (int i = 0; i < count; ++i) {
-        cout << "Введите строку " << i+1 << endl;
+        cout << "Input string " << i+1 << endl;
         char s[128];
         scanf("%s", s);
-        cout << "Исходная строка:" << endl << s << endl;
+        cout << "Source string:" << endl << s << endl;
+        cout << "New string:" << endl;
         if (groups(s, is_letter) > groups(s, is_sign)) {
-            cout << "Групп букв больше, чем групп знаков" << endl;
-            cout << "Скорректированная строка:" << endl << replace(s, is_sign) << endl;
+            cout << replace(s, is_sign) << endl;
         } else {
-            cout << "Групп букв меньше, чем групп знаков" << endl;
-            cout << "Скорректированная строка:" << endl << s << endl;
+            cout << s << endl;
         }
     }
     
-
     return 0;
 }
