@@ -44,7 +44,7 @@ void InputMatrix(Matrix& matrix) {
     }
 }
 
-void SubLine(double* ded, double* red, int dim, int k) {
+void SubLine(double*& ded, double*& red, int dim, double k) {
     for (size_t i = 0; i < dim; ++i) {
         red[i] -= ded[i] * k;
     }
@@ -52,12 +52,28 @@ void SubLine(double* ded, double* red, int dim, int k) {
 
 void ToUpper(Matrix& matrix) {
     for (size_t i = 0; i < matrix.n-1; ++i) {
-        for (size_t j = i; j < matrix.n-1; ++j) {
-            SubLine(matrix.value[j],
-                    matrix.value[j+1],
-                    matrix.m,
-                    matrix.value[j+1][0]/matrix.value[j][0]
-            );
+        for (size_t j = i+1; j < matrix.n; ++j) {
+            if (matrix.value[i][i] != 0) {
+                SubLine(matrix.value[i],
+                        matrix.value[j],
+                        matrix.m,
+                        (matrix.value[j][i])/(matrix.value[i][i])
+                );
+            }
+        }
+    }
+}
+
+void ToDown(Matrix& matrix) {
+    for (size_t i = matrix.n-2; i >= 0; --i) {
+        for (size_t j = i+1; j < matrix.n; ++j) {
+            if (matrix.value[i][i] != 0) {
+                SubLine(matrix.value[i],
+                        matrix.value[j],
+                        matrix.m,
+                        (matrix.value[j][i])/(matrix.value[i][i])
+                );
+            }
         }
     }
 }
