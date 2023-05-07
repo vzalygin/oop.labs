@@ -26,5 +26,7 @@ int main() {
       close++;
   }
 
+  cout << "parenthisis balance: " << open-close << endl;
+
   return 0;
 }
