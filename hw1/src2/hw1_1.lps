@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="30" Y="15"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,10 +19,8 @@
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="35"/>
-        <CursorPos X="7" Y="71"/>
-        <UsageCount Value="36"/>
+        <CursorPos X="38" Y="9"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -33,7 +31,7 @@
         <EditorIndex Value="5"/>
         <TopLine Value="2"/>
         <CursorPos X="28" Y="23"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -41,15 +39,14 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="21"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="40"/>
       </Unit>
       <Unit>
         <Filename Value="figure.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Figure"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="28" Y="16"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -58,16 +55,17 @@
         <UnitName Value="List"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="9"/>
-        <UsageCount Value="35"/>
+        <UsageCount Value="39"/>
       </Unit>
       <Unit>
         <Filename Value="tickers.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Tickers"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="4"/>
-        <CursorPos X="30" Y="23"/>
-        <UsageCount Value="31"/>
+        <TopLine Value="7"/>
+        <CursorPos X="3" Y="28"/>
+        <UsageCount Value="35"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -76,7 +74,7 @@
         <EditorIndex Value="3"/>
         <TopLine Value="5"/>
         <CursorPos X="41" Y="39"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -116,7 +114,7 @@
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\..\..\..\usr\share\lazarus\2.2.6\lcl\extctrls.pp"/>
+        <Filename Value="D:\usr\share\lazarus\2.2.6\lcl\extctrls.pp"/>
         <UnitName Value="ExtCtrls"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="175"/>
@@ -124,21 +122,21 @@
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\..\..\..\usr\share\lazarus\2.2.6\lcl\include\control.inc"/>
+        <Filename Value="D:\usr\share\lazarus\2.2.6\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="4497"/>
         <CursorPos Y="4515"/>
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\..\..\..\usr\share\lazarus\2.2.6\lcl\include\wincontrol.inc"/>
+        <Filename Value="D:\usr\share\lazarus\2.2.6\lcl\include\wincontrol.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="6471"/>
         <CursorPos Y="6492"/>
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\..\..\..\usr\share\lazarus\2.2.6\lcl\include\customcheckbox.inc"/>
+        <Filename Value="D:\usr\share\lazarus\2.2.6\lcl\include\customcheckbox.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="113"/>
         <CursorPos Y="134"/>
@@ -146,10 +144,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="108" TopLine="86"/>
-      </Position>
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="109" TopLine="86"/>
@@ -265,6 +259,10 @@
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="109" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="9" Column="38"/>
       </Position>
     </JumpHistory>
     <RunParams>
