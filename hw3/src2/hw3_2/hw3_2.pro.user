@@ -4,7 +4,7 @@
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{393eadde-e98f-4343-b27d-1d7d164a8665}</value>
+  <value type="QByteArray">{149c39c4-150b-4bee-8ffd-75c5699c89ec}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -79,14 +79,11 @@
     <value type="bool" key="ClangTools.AnalyzeOpenFiles">true</value>
     <value type="bool" key="ClangTools.BuildBeforeAnalysis">true</value>
     <value type="QString" key="ClangTools.DiagnosticConfig">Builtin.DefaultTidyAndClazy</value>
-    <value type="int" key="ClangTools.ParallelJobs">2</value>
+    <value type="int" key="ClangTools.ParallelJobs">4</value>
     <valuelist type="QVariantList" key="ClangTools.SelectedDirs"/>
     <valuelist type="QVariantList" key="ClangTools.SelectedFiles"/>
     <valuelist type="QVariantList" key="ClangTools.SuppressedDiagnostics"/>
     <value type="bool" key="ClangTools.UseGlobalSettings">true</value>
-   </valuemap>
-   <valuemap type="QVariantMap" key="CppEditor.QuickFix">
-    <value type="bool" key="UseGlobalSettings">true</value>
    </valuemap>
   </valuemap>
  </data>
@@ -302,8 +299,13 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\repos\oop.labs\hw3\src2\build-hw3_2-Desktop_x86_windows_msys_pe_32bit-Release</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/repos/oop.labs/hw3/src2/build-hw3_2-Desktop_x86_windows_msys_pe_32bit-Release</value>
+=======
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\repos\oop.labs\hw3\src2\build-hw3_2-Desktop_Qt_5_12_12_MinGW_32_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/repos/oop.labs/hw3/src2/build-hw3_2-Desktop_Qt_5_12_12_MinGW_32_bit-Release</value>
+>>>>>>> 8eb9c9dcdd1d6ab2a8faaf2ca91a6273a688c67d
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -342,8 +344,13 @@
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="int" key="EnableQmlDebugging">0</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\repos\oop.labs\hw3\src2\build-hw3_2-Desktop_x86_windows_msys_pe_32bit-Profile</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/repos/oop.labs/hw3/src2/build-hw3_2-Desktop_x86_windows_msys_pe_32bit-Profile</value>
+=======
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\repos\oop.labs\hw3\src2\build-hw3_2-Desktop_Qt_5_12_12_MinGW_32_bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/repos/oop.labs/hw3/src2/build-hw3_2-Desktop_Qt_5_12_12_MinGW_32_bit-Profile</value>
+>>>>>>> 8eb9c9dcdd1d6ab2a8faaf2ca91a6273a688c67d
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -402,20 +409,24 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/repos/oop.labs/hw3/src2/hw3_2/hw3_2.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/repos/oop.labs/hw3/src2/hw3_2/hw3_2.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/repos/oop.labs/hw3/src2/hw3_2/hw3_2.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/repos/oop.labs/hw3/src2/hw3_2/hw3_2.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+<<<<<<< HEAD
+=======
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/repos/oop.labs/hw3/src2/build-hw3_2-Desktop_Qt_5_12_12_MinGW_32_bit-Debug</value>
+>>>>>>> 8eb9c9dcdd1d6ab2a8faaf2ca91a6273a688c67d
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
  </data>
  <data>
   <variable>ProjectExplorer.Project.TargetCount</variable>
-  <value type="int">2</value>
+  <value type="int">1</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.Updater.FileVersion</variable>
