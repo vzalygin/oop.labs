@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui charts
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -10,20 +10,26 @@ CONFIG += c++11
 
 SOURCES += \
     addstudentdialog.cpp \
+    diagrammsdialog.cpp \
     main.cpp \
     mainwindow.cpp \
+    numberfilterdialog.cpp \
     repository.cpp \
     student.cpp
 
 HEADERS += \
     addstudentdialog.hpp \
+    diagrammsdialog.hpp \
     mainwindow.hpp \
+    numberfilterdialog.hpp \
     repository.hpp \
     student.hpp
 
 FORMS += \
     addstudentdialog.ui \
-    mainwindow.ui
+    diagrammsdialog.ui \
+    mainwindow.ui \
+    numberfilterdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

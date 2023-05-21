@@ -1,0 +1,11 @@
+release/addstudentdialog.o
+release/diagrammsdialog.o
+release/main.o
+release/mainwindow.o
+release/numberfilterdialog.o
+release/repository.o
+release/student.o
+release/moc_addstudentdialog.o
+release/moc_diagrammsdialog.o
+release/moc_mainwindow.o
+release/moc_numberfilterdialog.o

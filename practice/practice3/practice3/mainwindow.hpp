@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <repository.hpp>
+#include "addstudentdialog.hpp"
+#include "numberfilterdialog.hpp"
+#include "diagrammsdialog.hpp"
 
 #include <memory>
 #include <QMainWindow>
@@ -28,9 +31,14 @@ public slots:
     void analGroupClick();
     void analRatingClick();
     void averageRatingClick();
+    void analGroupCallback(int);
 
 private:
     Ui::MainWindow * ui;
     Repository & _repo;
+    AddStudentDialog _addStudentDialog;
+    NumberFilterDialog _filterDialog;
+    DiagrammsDialog _diagrammsDialog;
+    bool _isNormalMode;
 };
 #endif // MAINWINDOW_H
