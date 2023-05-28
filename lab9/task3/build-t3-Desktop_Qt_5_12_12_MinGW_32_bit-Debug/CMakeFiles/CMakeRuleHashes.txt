@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+60144b9a0e2ffa30eacbb9ab7ed9a3ec CMakeFiles/t3_autogen
+52b071e70677318a36fb55d03208234a D:/repos/oop.labs/lab9/task3/t3/t3_ru_RU.ts

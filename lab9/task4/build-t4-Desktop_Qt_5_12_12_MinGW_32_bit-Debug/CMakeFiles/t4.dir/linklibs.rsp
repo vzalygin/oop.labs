@@ -1,0 +1,1 @@
+ D:/apps/qt_new/5.12.12/mingw73_32/lib/libQt5Widgetsd.a D:/apps/qt_new/5.12.12/mingw73_32/lib/libQt5Guid.a D:/apps/qt_new/5.12.12/mingw73_32/lib/libQt5Cored.a D:/apps/qt_new/5.12.12/mingw73_32/lib/libqtmaind.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

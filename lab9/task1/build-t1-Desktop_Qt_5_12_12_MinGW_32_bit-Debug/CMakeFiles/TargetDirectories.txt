@@ -1,0 +1,8 @@
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/t1.dir
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/edit_cache.dir
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/list_install_components.dir
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/install.dir
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/install/local.dir
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/install/strip.dir
+D:/repos/oop.labs/lab9/task1/build-t1-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/CMakeFiles/t1_autogen.dir

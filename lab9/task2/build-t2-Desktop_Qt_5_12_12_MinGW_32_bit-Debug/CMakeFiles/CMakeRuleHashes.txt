@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+4d363ae6dd957a8458355c067f1d0a14 CMakeFiles/t2_autogen
+dbaa49348787565c3f241597f0b9e948 D:/repos/oop.labs/lab9/task2/t2/t2_ru_RU.ts

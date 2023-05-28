@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5472fb96add393bde5a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "t4",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "t4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t4-Debug-0944513d9c63cc6aa0e4.json",
+					"name" : "t4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t4_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t4_autogen-Debug-0f126bcd5d67b97c8023.json",
+					"name" : "t4_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/repos/oop.labs/lab9/task4/build-t4-Desktop_Qt_5_12_12_MinGW_32_bit-Debug",
+		"source" : "D:/repos/oop.labs/lab9/task4/t4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
